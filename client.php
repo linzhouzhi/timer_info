@@ -5,7 +5,7 @@ function client($url){
 
 	//注册连接成功回调
 	$client->on("connect", function($cli) use ($url) {
-    		$cli->send($url."\n");
+    		$cli->send($url);
 	});
 
 	//注册数据接收回调

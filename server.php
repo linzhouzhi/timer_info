@@ -1,4 +1,7 @@
 <?php
+require_once("config.php");
+require_once("gloab.php");
+
 $serv = new swoole_server("127.0.0.1", 9501);
 
 //设置异步任务的工作进程数量
@@ -25,16 +28,22 @@ $serv->on('task', function ($serv, $task_id, $from_id, $data) {
         $output = curl_exec($ch);
         //释放curl句柄
         curl_close($ch);
-        echo $output."\n";
-        if(!empty($output)){
-		//设置该url状态已经处理完成
+
+        if($output != '0'){
+		    //设置该url状态已经处理完成
+            $sql="update call_url set status=1 where url='".$data."'";
+            query($sql);
         	break;
-        }else{
-		sleep(2);
-	}
-	$i++;
+        }
+
+        $i++;
+        if($i==5){
+            $sql="update call_url set status=-1 where url='".$data."'";
+            query($sql);
+        }
+        sleep(2);
     }while($i <= 5);
-    
+
     //返回任务执行的结果
     $serv->finish("$data -> OK");
 });
