@@ -29,16 +29,17 @@ $serv->on('task', function ($serv, $task_id, $from_id, $data) {
         //释放curl句柄
         curl_close($ch);
 
+        $time = time();
         if($output != '0'){
 		    //设置该url状态已经处理完成
-            $sql="update call_url set status=1 where url='".$data."'";
+            $sql="update call_url set status=1,finish_time=$time where url='".$data."'";
             query($sql);
         	break;
         }
 
         $i++;
         if($i==5){
-            $sql="update call_url set status=-1 where url='".$data."'";
+            $sql="update call_url set status=-1,finish_time=$time where url='".$data."'";
             query($sql);
         }
         sleep(2);

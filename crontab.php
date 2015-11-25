@@ -23,10 +23,10 @@ function crontab_check($exe_time,$finish_time=0){
     $curr_arr = crontab_get_time_arr();
 
     $res = false;
-    for($i=0;$i<5;$i++){
+    for($i=0;$i<4;$i++){
         if($exe_arr[$i] != '*'){
             if($type === 1){  //如果是第一种类型，就是上面描述的那种
-                if(com_exe_curr_type1($exe_arr[$i],$curr_arr[$i])){
+                if( com_exe_curr_type1($exe_arr[$i],$curr_arr[$i]) ){
                     $res = true;
                 }else{
                     $res = false;
@@ -34,7 +34,7 @@ function crontab_check($exe_time,$finish_time=0){
                 }
             }else{  //否则就是第二种类型了
                 if( com_exe_curr_type2($exe_arr[$i],$curr_arr[$i],$finish_time,$i) ){
-
+                    $res = true;
                 }else{
                     $res = false;
                     break;
@@ -52,30 +52,76 @@ function crontab_check($exe_time,$finish_time=0){
  * $time_type 是时间类型，0 1 2 3 4 分别表示分 时 日 月 周
  */
 function com_exe_curr_type2($exe,$curr,$finish,$time_type){
-    
+    $pos = strpos($exe,'/');
+    $arr = explode('/',$exe);
+    if($pos !== false){
+        //判断是* 这种格式的还是 '-' 这种格式的语法
+        if( $arr[0] === '*' ){
+            return check_finish_time($arr[1],$finish,$time_type);
+        }else{
+            $range = explode('-',$arr[0]);
+            $res = check_time_range($range,$curr);
+            if($res){
+                return check_finish_time($arr[1],$finish,$time_type);
+            }
+            return false;
+        }
+
+    }else{  //否则就是类型一的比对了
+        if( com_exe_curr_type1($exe,$curr) ){
+            return check_finish_time($arr[1],$finish,$time_type);
+        }
+        return false;
+    }
 }
+
+/**
+ * 根据最后执行的时间，还有时间类型，和时间间隔
+ * 判断是否满足执行条件
+ */
+function check_finish_time($dist,$finish,$time_type){
+    if(empty($finish)){ //如果最后执行的时间是0那么表示没执行过可以直接执行
+        return true;
+    }
+
+    $exe_time = 0;
+    switch($time_type){
+        case 0:  //按分钟执行
+            $exe_time = $finish+$dist*60;
+            break;
+        case 1:  //按小时执行
+            $exe_time = $finish+$dist*60*60;
+            break;
+        case 2:  //按日执行
+            $exe_time = $finish+$dist*60*60*24;
+            break;
+        case 3:  //按月执行
+            $exe_time = $finish+$dist*60*60*24*30;
+            break;
+        case 4:  //按周执行
+            $exe_time = $finish+$dist*60*60*24*7;
+            break;
+    }
+
+    if($exe_time <= time()){  //如果当前时间比要执行的时间还大就执行
+        return true;
+    }else{
+        return false;
+    }
+}
+
 
 /**
  * 根据时间比对就可以判断是否需要执行
  * 比较当前的时间，可能是分 时 日 月 周 的一种
  */
 function com_exe_curr_type1($exe,$curr){
-    echo $exe."--".$curr."*";
+
     //有三种情况 1 只有一个数字的，有 '-' 这个符号的，有 ',' 这个符号的
     $pos = strpos($exe,'-');
     if($pos !== false){
         $arr = explode('-',$exe);
-        if($arr[0] < $arr[1]){  //如果下限小于上线那么如果在中间就满足执行条件了
-            if($arr[0] <= $curr && $arr[1] >= $curr){
-                return true;
-            }
-            return false;
-        }else{  //如果下限比上限还大比如： 22-7 那么要大于上线 或着落在0-上限 这样才可以满足
-            if($arr[0] <= $curr || (0 <= $curr && $curr <= $arr[1])){
-                return true;
-            }
-            return false;
-        }
+        return check_time_range($arr,$curr);
     }
     //一个数字的，或',' 这个符号
     $pos = strpos($exe,$curr);
@@ -83,6 +129,23 @@ function com_exe_curr_type1($exe,$curr){
         return true;
     }
     return false;
+}
+
+/**
+ * 判断时间是否在范围之内 1-7 但是有时候是 22-9 这种表示22点到早上9点
+ */
+function check_time_range($range,$curr){
+    if($range[0] < $range[1]){  //如果下限小于上线那么如果在中间就满足执行条件了
+        if($range[0] <= $curr && $range[1] >= $curr){
+            return true;
+        }
+        return false;
+    }else{  //如果下限比上限还大比如： 22-7 那么要大于上线 或着落在0-上限 这样才可以满足
+        if($range[0] <= $curr || (0 <= $curr && $curr <= $range[1])){
+            return true;
+        }
+        return false;
+    }
 }
 
 /**
@@ -105,13 +168,11 @@ function crontab_exe_type($exe_time){
  */
 function crontab_get_time_arr(){
     //这个是因为当前获取的是格林威治时间，与北京时间相差8小时
-    date_default_timezone_set(PRC);
+    date_default_timezone_set('PRC');
     $time = date("i-H-d-m-w");
     $arr = explode('-',$time);
     return $arr;
 }
 
 
-$res = crontab_check("* 11-15 25 * *","");
-var_dump($res);
-exit();
+//$res = crontab_check("12-24/2 11-16 25,23 * *",1448439669);
