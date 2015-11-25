@@ -1,0 +1,23 @@
+一 运行步骤
+    1 启动服务器
+        管理员权限启动 sudo  php server.php
+    2 启动轮询程序
+        php timer.php
+
+二 接口调用
+    接口地址accept.php get 方式传递参数
+    url 这个要定时执行的地址
+    exe_time 这个是要执行的时间，也有可能是时间格式如10-31/2 * * * * 表示10到31分钟内每隔两分钟执行一次
+    type 这是执行的类型0表示执行一次就不执行 1 表示类似crontab的执行方式
+    调用方式: accept.php?url=respone.php&exe_time=111111&type=1
+
+二 目录结构说明
+    testurl/ :这个是用于测试的url地址
+    accept.php  ：接口调用地址
+    client.php  ：客户端程序，由时间轮询函数调用
+    config.php  ：配置文件
+    crontab.php ：定时任务语法检测函数，用于判断是否可以执行
+    gloab.php   ：全局函数库
+    server.php  ：服务器程序可以启动多个线程，并行处理task
+    table.sql   ：项目需要的表
+    timer.php   ：时间轮询函数，可以设置轮询的时间
