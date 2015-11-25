@@ -1,6 +1,12 @@
 <?php
+//数据库的配置
 define("DBHOST","192.168.1.253");
 define("USERNAME",'root');
 define("PASSWORD",'root');
 define("DATABASE",'swoole');
-
+//轮询处理时间
+define("LOOP_TIME",2000);
+//时间检查的误差范围，用于将当前时间和要执行的url时间对比
+define("RANGE_TIME",30);
+//服务器启动的线程数
+define("TASK_NUM",4);

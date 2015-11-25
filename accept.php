@@ -3,7 +3,7 @@ require_once("config.php");
 require_once("gloab.php");
 
 //判断参数是否合法
-if( empty($_SERVER["REMOTE_ADDR"]) || !isset($_SERVER["REMOTE_ADDR"]) || empty($_GET['url']) || empty($_GET['exe_time']) ){
+if( empty($_SERVER["REMOTE_ADDR"]) || !isset($_SERVER["REMOTE_ADDR"]) || empty($_GET['url']) || empty($_GET['exe_time']) || empty($_GET['type']) ){
 	echo "您的请求参数不符合格式！";
 	exit();
 }else{

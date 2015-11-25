@@ -1,12 +1,5 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: lzz
- * Date: 11/24/15
- * Time: 8:59 PM
- */
-
-/**
  * 用0-1表示成功失败，这样客户端方面会好操作些
  */
 function pf($data=null){

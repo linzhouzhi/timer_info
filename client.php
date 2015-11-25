@@ -10,7 +10,7 @@ function client($url){
 
 	//注册数据接收回调
 	$client->on("receive", function($cli, $data){
-		file_put_contents("/phpstudy/www/swoole/mylog.log",$data."--null"."\r\n",FILE_APPEND);
+		//file_put_contents("/phpstudy/www/swoole/mylog.log",$data."--null"."\r\n",FILE_APPEND);
    		echo "Received: ".$data."\n";
 	});
 
