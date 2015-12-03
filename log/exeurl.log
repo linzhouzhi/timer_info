@@ -1,0 +1,1899 @@
+Dispath AsyncTask: id=0
+AsyncTask[0] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=0
+AsyncTask[0] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=0
+AsyncTask[0] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=0
+AsyncTask[0] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=1
+AsyncTask[1] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=1
+AsyncTask[1] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=1
+AsyncTask[1] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=1
+AsyncTask[1] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=2
+AsyncTask[2] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=2
+AsyncTask[2] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=2
+AsyncTask[2] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=2
+AsyncTask[2] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=3
+AsyncTask[3] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=3
+AsyncTask[3] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=3
+AsyncTask[3] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=3
+AsyncTask[3] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=4
+AsyncTask[4] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=4
+AsyncTask[4] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=4
+AsyncTask[4] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=4
+AsyncTask[4] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=5
+AsyncTask[5] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=5
+AsyncTask[5] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=5
+AsyncTask[5] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=5
+AsyncTask[5] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=6
+AsyncTask[6] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=6
+AsyncTask[6] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=6
+AsyncTask[6] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=6
+AsyncTask[6] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=7
+AsyncTask[7] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=7
+AsyncTask[7] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=7
+AsyncTask[7] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=7
+AsyncTask[7] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=8
+AsyncTask[8] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=8
+AsyncTask[8] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=8
+AsyncTask[8] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=8
+AsyncTask[8] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=9
+AsyncTask[9] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=9
+AsyncTask[9] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=9
+AsyncTask[9] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=9
+AsyncTask[9] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=10
+AsyncTask[10] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=10
+AsyncTask[10] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=10
+AsyncTask[10] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=10
+AsyncTask[10] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=11
+AsyncTask[11] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=11
+Dispath AsyncTask: id=11
+AsyncTask[11] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[11] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=11
+AsyncTask[11] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=12
+AsyncTask[12] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=12
+AsyncTask[12] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=12
+AsyncTask[12] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=12
+AsyncTask[12] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=13
+AsyncTask[13] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=13
+AsyncTask[13] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=13
+AsyncTask[13] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=13
+AsyncTask[13] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=14
+AsyncTask[14] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=14
+AsyncTask[14] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=14
+AsyncTask[14] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=14
+AsyncTask[14] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=15
+AsyncTask[15] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=15
+AsyncTask[15] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=15
+AsyncTask[15] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=15
+AsyncTask[15] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=16
+AsyncTask[16] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=16
+AsyncTask[16] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=16
+AsyncTask[16] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=16
+AsyncTask[16] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=17
+AsyncTask[17] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=17
+AsyncTask[17] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=17
+AsyncTask[17] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=17
+AsyncTask[17] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=18
+AsyncTask[18] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=18
+AsyncTask[18] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=18
+AsyncTask[18] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=18
+AsyncTask[18] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=19
+AsyncTask[19] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=19
+AsyncTask[19] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=19
+AsyncTask[19] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=19
+AsyncTask[19] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=20
+AsyncTask[20] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=20
+AsyncTask[20] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=20
+AsyncTask[20] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=20
+AsyncTask[20] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=21
+AsyncTask[21] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=21
+AsyncTask[21] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=21
+AsyncTask[21] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=21
+AsyncTask[21] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=22
+AsyncTask[22] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=22
+AsyncTask[22] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=22
+AsyncTask[22] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=22
+Dispath AsyncTask: id=23
+AsyncTask[22] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[23] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=23
+AsyncTask[23] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=23
+Dispath AsyncTask: id=23
+AsyncTask[23] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[23] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=24
+AsyncTask[24] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=24
+AsyncTask[24] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=24
+AsyncTask[24] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=24
+AsyncTask[24] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=25
+AsyncTask[25] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=25
+AsyncTask[25] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=25
+AsyncTask[25] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=25
+AsyncTask[25] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=26
+AsyncTask[26] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=26
+AsyncTask[26] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=26
+AsyncTask[26] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=26
+AsyncTask[26] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=27
+AsyncTask[27] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=27
+AsyncTask[27] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=27
+AsyncTask[27] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=27
+AsyncTask[27] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=28
+AsyncTask[28] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=28
+AsyncTask[28] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=28
+AsyncTask[28] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=28
+AsyncTask[28] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=29
+AsyncTask[29] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=29
+AsyncTask[29] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=29
+AsyncTask[29] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=29
+AsyncTask[29] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=30
+AsyncTask[30] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=30
+AsyncTask[30] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=30
+AsyncTask[30] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=30
+AsyncTask[30] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=31
+AsyncTask[31] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=31
+AsyncTask[31] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=31
+AsyncTask[31] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=31
+AsyncTask[31] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=32
+AsyncTask[32] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=32
+AsyncTask[32] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=32
+AsyncTask[32] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=32
+AsyncTask[32] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=33
+AsyncTask[33] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=33
+AsyncTask[33] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=33
+AsyncTask[33] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=33
+AsyncTask[33] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=34
+AsyncTask[34] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=34
+AsyncTask[34] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=34
+AsyncTask[34] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=34
+AsyncTask[34] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=35
+AsyncTask[35] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=35
+AsyncTask[35] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=35
+AsyncTask[35] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=35
+AsyncTask[35] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=36
+AsyncTask[36] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=36
+AsyncTask[36] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=36
+AsyncTask[36] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=36
+AsyncTask[36] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=37
+AsyncTask[37] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=37
+Dispath AsyncTask: id=37
+AsyncTask[37] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[37] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=37
+AsyncTask[37] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=38
+AsyncTask[38] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=38
+AsyncTask[38] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=38
+AsyncTask[38] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=38
+AsyncTask[38] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=39
+AsyncTask[39] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=39
+AsyncTask[39] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=39
+AsyncTask[39] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=39
+AsyncTask[39] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=40
+AsyncTask[40] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=40
+AsyncTask[40] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=40
+AsyncTask[40] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=40
+AsyncTask[40] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=41
+Dispath AsyncTask: id=41
+AsyncTask[41] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[41] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=41
+AsyncTask[41] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=41
+AsyncTask[41] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=42
+AsyncTask[42] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=42
+AsyncTask[42] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=42
+AsyncTask[42] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=42
+AsyncTask[42] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=43
+AsyncTask[43] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=43
+AsyncTask[43] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=43
+AsyncTask[43] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=43
+AsyncTask[43] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=44
+AsyncTask[44] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=44
+AsyncTask[44] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=44
+AsyncTask[44] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=44
+AsyncTask[44] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=45
+AsyncTask[45] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=45
+AsyncTask[45] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=45
+AsyncTask[45] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=45
+AsyncTask[45] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=46
+AsyncTask[46] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=46
+AsyncTask[46] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=46
+AsyncTask[46] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=46
+AsyncTask[46] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=47
+AsyncTask[47] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=47
+AsyncTask[47] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=47
+AsyncTask[47] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=47
+AsyncTask[47] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=48
+AsyncTask[48] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=48
+AsyncTask[48] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=48
+AsyncTask[48] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=48
+AsyncTask[48] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=49
+AsyncTask[49] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=49
+AsyncTask[49] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=49
+Dispath AsyncTask: id=49
+AsyncTask[49] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[49] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=50
+AsyncTask[50] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=50
+AsyncTask[50] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=50
+AsyncTask[50] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=50
+AsyncTask[50] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=51
+AsyncTask[51] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=51
+AsyncTask[51] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=51
+Dispath AsyncTask: id=51
+AsyncTask[51] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[51] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=52
+AsyncTask[52] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=52
+AsyncTask[52] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=52
+AsyncTask[52] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=52
+AsyncTask[52] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=53
+AsyncTask[53] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=53
+AsyncTask[53] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=53
+AsyncTask[53] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=53
+AsyncTask[53] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=54
+AsyncTask[54] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=54
+AsyncTask[54] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=54
+AsyncTask[54] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=54
+AsyncTask[54] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=55
+AsyncTask[55] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=55
+AsyncTask[55] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=55
+AsyncTask[55] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=55
+AsyncTask[55] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=56
+AsyncTask[56] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=56
+AsyncTask[56] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=56
+AsyncTask[56] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=56
+AsyncTask[56] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=57
+AsyncTask[57] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=57
+AsyncTask[57] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=57
+AsyncTask[57] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=57
+AsyncTask[57] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=58
+AsyncTask[58] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=58
+AsyncTask[58] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=58
+AsyncTask[58] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=58
+AsyncTask[58] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=59
+AsyncTask[59] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=59
+Dispath AsyncTask: id=59
+AsyncTask[59] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[59] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=59
+AsyncTask[59] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=60
+AsyncTask[60] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=60
+AsyncTask[60] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=60
+AsyncTask[60] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=60
+AsyncTask[60] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=61
+AsyncTask[61] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=61
+AsyncTask[61] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=61
+AsyncTask[61] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=61
+AsyncTask[61] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=62
+AsyncTask[62] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=62
+AsyncTask[62] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=62
+AsyncTask[62] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=62
+AsyncTask[62] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=63
+AsyncTask[63] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=63
+AsyncTask[63] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=63
+AsyncTask[63] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=63
+AsyncTask[63] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=64
+AsyncTask[64] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=64
+AsyncTask[64] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=64
+AsyncTask[64] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=64
+AsyncTask[64] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=65
+AsyncTask[65] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=65
+AsyncTask[65] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=65
+AsyncTask[65] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=65
+AsyncTask[65] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=66
+AsyncTask[66] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=66
+AsyncTask[66] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=66
+AsyncTask[66] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=66
+AsyncTask[66] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=67
+AsyncTask[67] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=67
+AsyncTask[67] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=67
+AsyncTask[67] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=67
+AsyncTask[67] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=68
+AsyncTask[68] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=68
+AsyncTask[68] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=68
+AsyncTask[68] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=68
+AsyncTask[68] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=69
+AsyncTask[69] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=69
+AsyncTask[69] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=69
+AsyncTask[69] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=69
+AsyncTask[69] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=70
+AsyncTask[70] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=70
+AsyncTask[70] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=70
+AsyncTask[70] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=70
+AsyncTask[70] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=71
+AsyncTask[71] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=71
+AsyncTask[71] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=71
+AsyncTask[71] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=71
+AsyncTask[71] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=72
+AsyncTask[72] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=72
+AsyncTask[72] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=72
+AsyncTask[72] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=72
+AsyncTask[72] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=73
+AsyncTask[73] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=73
+AsyncTask[73] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=73
+AsyncTask[73] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=73
+AsyncTask[73] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=74
+AsyncTask[74] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=74
+AsyncTask[74] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=74
+AsyncTask[74] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=74
+AsyncTask[74] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=75
+AsyncTask[75] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=75
+AsyncTask[75] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=75
+AsyncTask[75] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=75
+AsyncTask[75] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=76
+AsyncTask[76] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=76
+AsyncTask[76] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=76
+AsyncTask[76] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=76
+AsyncTask[76] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=77
+AsyncTask[77] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=77
+AsyncTask[77] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=77
+AsyncTask[77] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=77
+AsyncTask[77] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=78
+AsyncTask[78] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=78
+AsyncTask[78] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=78
+AsyncTask[78] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=78
+AsyncTask[78] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=79
+AsyncTask[79] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=79
+AsyncTask[79] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=79
+AsyncTask[79] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=79
+AsyncTask[79] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=80
+AsyncTask[80] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=80
+AsyncTask[80] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=80
+AsyncTask[80] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=80
+AsyncTask[80] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=81
+AsyncTask[81] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=81
+AsyncTask[81] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=81
+AsyncTask[81] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=81
+AsyncTask[81] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=82
+AsyncTask[82] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=82
+AsyncTask[82] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=82
+AsyncTask[82] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=82
+AsyncTask[82] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=83
+AsyncTask[83] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=83
+AsyncTask[83] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=83
+AsyncTask[83] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=83
+AsyncTask[83] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=84
+AsyncTask[84] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=84
+AsyncTask[84] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=84
+AsyncTask[84] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=84
+AsyncTask[84] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=85
+AsyncTask[85] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=85
+AsyncTask[85] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=85
+AsyncTask[85] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=85
+AsyncTask[85] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=86
+AsyncTask[86] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=86
+AsyncTask[86] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=86
+AsyncTask[86] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=86
+AsyncTask[86] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=87
+AsyncTask[87] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=87
+AsyncTask[87] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=87
+AsyncTask[87] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=87
+AsyncTask[87] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=88
+AsyncTask[88] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=88
+AsyncTask[88] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=88
+AsyncTask[88] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=88
+AsyncTask[88] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=89
+AsyncTask[89] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=89
+AsyncTask[89] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=89
+AsyncTask[89] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=89
+AsyncTask[89] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=90
+AsyncTask[90] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=90
+AsyncTask[90] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=90
+AsyncTask[90] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=90
+AsyncTask[90] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=91
+AsyncTask[91] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=91
+AsyncTask[91] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=91
+AsyncTask[91] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=91
+AsyncTask[91] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=92
+AsyncTask[92] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=92
+AsyncTask[92] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=92
+AsyncTask[92] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=92
+AsyncTask[92] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=93
+AsyncTask[93] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=93
+AsyncTask[93] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=93
+AsyncTask[93] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=94
+Dispath AsyncTask: id=93
+AsyncTask[93] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[94] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=94
+AsyncTask[94] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=94
+AsyncTask[94] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=94
+AsyncTask[94] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=95
+AsyncTask[95] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=95
+AsyncTask[95] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=95
+AsyncTask[95] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=95
+AsyncTask[95] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=96
+AsyncTask[96] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=96
+AsyncTask[96] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=96
+AsyncTask[96] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=96
+AsyncTask[96] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=97
+AsyncTask[97] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=97
+AsyncTask[97] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=97
+AsyncTask[97] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=97
+AsyncTask[97] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=98
+AsyncTask[98] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=98
+AsyncTask[98] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=98
+AsyncTask[98] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=98
+AsyncTask[98] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=99
+AsyncTask[99] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=99
+AsyncTask[99] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=99
+AsyncTask[99] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=99
+AsyncTask[99] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=100
+AsyncTask[100] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=100
+AsyncTask[100] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=100
+AsyncTask[100] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=100
+AsyncTask[100] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=101
+AsyncTask[101] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=101
+AsyncTask[101] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=101
+AsyncTask[101] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=101
+AsyncTask[101] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=102
+AsyncTask[102] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=102
+AsyncTask[102] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=102
+AsyncTask[102] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=102
+AsyncTask[102] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=103
+AsyncTask[103] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=103
+AsyncTask[103] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=103
+AsyncTask[103] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=103
+AsyncTask[103] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=104
+AsyncTask[104] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=104
+AsyncTask[104] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=104
+AsyncTask[104] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=104
+AsyncTask[104] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=105
+AsyncTask[105] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=105
+AsyncTask[105] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=105
+AsyncTask[105] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=105
+AsyncTask[105] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=106
+AsyncTask[106] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=106
+AsyncTask[106] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=106
+AsyncTask[106] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=106
+AsyncTask[106] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=107
+AsyncTask[107] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=107
+AsyncTask[107] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=107
+AsyncTask[107] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=107
+AsyncTask[107] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=108
+AsyncTask[108] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=108
+AsyncTask[108] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=108
+AsyncTask[108] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=108
+AsyncTask[108] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=109
+AsyncTask[109] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=109
+AsyncTask[109] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=109
+AsyncTask[109] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=109
+AsyncTask[109] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=110
+AsyncTask[110] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=110
+AsyncTask[110] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=110
+AsyncTask[110] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=110
+AsyncTask[110] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=111
+AsyncTask[111] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=111
+AsyncTask[111] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=111
+AsyncTask[111] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=111
+AsyncTask[111] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=112
+AsyncTask[112] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=112
+AsyncTask[112] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=112
+AsyncTask[112] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=112
+AsyncTask[112] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=113
+AsyncTask[113] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=113
+AsyncTask[113] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=113
+AsyncTask[113] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=113
+AsyncTask[113] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=114
+AsyncTask[114] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=114
+AsyncTask[114] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=114
+AsyncTask[114] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=114
+AsyncTask[114] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=115
+AsyncTask[115] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=115
+AsyncTask[115] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=115
+AsyncTask[115] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=115
+AsyncTask[115] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=116
+AsyncTask[116] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=116
+AsyncTask[116] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=116
+AsyncTask[116] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=116
+AsyncTask[116] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=117
+AsyncTask[117] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=117
+AsyncTask[117] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=117
+AsyncTask[117] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=117
+AsyncTask[117] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=118
+AsyncTask[118] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=118
+AsyncTask[118] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=118
+AsyncTask[118] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=118
+AsyncTask[118] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=119
+AsyncTask[119] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=119
+AsyncTask[119] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=119
+AsyncTask[119] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=119
+AsyncTask[119] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=120
+AsyncTask[120] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=120
+AsyncTask[120] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=120
+AsyncTask[120] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=120
+AsyncTask[120] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=121
+AsyncTask[121] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=121
+AsyncTask[121] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=121
+AsyncTask[121] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=121
+AsyncTask[121] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=122
+AsyncTask[122] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=122
+AsyncTask[122] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=122
+AsyncTask[122] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=122
+AsyncTask[122] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=123
+AsyncTask[123] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=123
+AsyncTask[123] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=123
+AsyncTask[123] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=123
+AsyncTask[123] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=124
+AsyncTask[124] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=124
+AsyncTask[124] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=124
+AsyncTask[124] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=124
+AsyncTask[124] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=125
+AsyncTask[125] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=125
+AsyncTask[125] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=125
+AsyncTask[125] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=125
+AsyncTask[125] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=126
+AsyncTask[126] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=126
+AsyncTask[126] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=126
+AsyncTask[126] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=126
+AsyncTask[126] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=127
+AsyncTask[127] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=127
+AsyncTask[127] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=127
+AsyncTask[127] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=127
+AsyncTask[127] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=128
+AsyncTask[128] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=128
+AsyncTask[128] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=128
+AsyncTask[128] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=128
+AsyncTask[128] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=129
+AsyncTask[129] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=129
+AsyncTask[129] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=129
+AsyncTask[129] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=129
+AsyncTask[129] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=130
+AsyncTask[130] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=130
+AsyncTask[130] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=130
+AsyncTask[130] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=130
+AsyncTask[130] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=131
+AsyncTask[131] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=131
+Dispath AsyncTask: id=131
+Dispath AsyncTask: id=131
+Dispath AsyncTask: id=132
+Dispath AsyncTask: id=132
+Dispath AsyncTask: id=132
+Dispath AsyncTask: id=132
+Dispath AsyncTask: id=133
+Dispath AsyncTask: id=133
+Dispath AsyncTask: id=133
+Dispath AsyncTask: id=133
+Dispath AsyncTask: id=134
+Dispath AsyncTask: id=134
+Dispath AsyncTask: id=134
+Dispath AsyncTask: id=134
+Dispath AsyncTask: id=135
+Dispath AsyncTask: id=135
+Dispath AsyncTask: id=135
+Dispath AsyncTask: id=135
+Dispath AsyncTask: id=136
+Dispath AsyncTask: id=136
+Dispath AsyncTask: id=136
+Dispath AsyncTask: id=136
+Dispath AsyncTask: id=137
+Dispath AsyncTask: id=137
+Dispath AsyncTask: id=137
+Dispath AsyncTask: id=137
+Dispath AsyncTask: id=138
+Dispath AsyncTask: id=138
+Dispath AsyncTask: id=138
+Dispath AsyncTask: id=138
+Dispath AsyncTask: id=139
+Dispath AsyncTask: id=139
+Dispath AsyncTask: id=139
+Dispath AsyncTask: id=139
+Dispath AsyncTask: id=140
+Dispath AsyncTask: id=140
+Dispath AsyncTask: id=140
+Dispath AsyncTask: id=140
+Dispath AsyncTask: id=141
+Dispath AsyncTask: id=141
+Dispath AsyncTask: id=141
+Dispath AsyncTask: id=141
+Dispath AsyncTask: id=142
+Dispath AsyncTask: id=142
+Dispath AsyncTask: id=142
+Dispath AsyncTask: id=142
+Dispath AsyncTask: id=143
+Dispath AsyncTask: id=143
+Dispath AsyncTask: id=143
+Dispath AsyncTask: id=143
+Dispath AsyncTask: id=144
+Dispath AsyncTask: id=144
+Dispath AsyncTask: id=144
+Dispath AsyncTask: id=144
+Dispath AsyncTask: id=145
+Dispath AsyncTask: id=145
+Dispath AsyncTask: id=145
+Dispath AsyncTask: id=145
+Dispath AsyncTask: id=146
+Dispath AsyncTask: id=146
+Dispath AsyncTask: id=146
+Dispath AsyncTask: id=146
+Dispath AsyncTask: id=147
+Dispath AsyncTask: id=147
+AsyncTask[131] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[131] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[131] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[132] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=147
+Dispath AsyncTask: id=147
+Dispath AsyncTask: id=148
+Dispath AsyncTask: id=148
+Dispath AsyncTask: id=148
+Dispath AsyncTask: id=148
+Dispath AsyncTask: id=149
+Dispath AsyncTask: id=149
+Dispath AsyncTask: id=149
+Dispath AsyncTask: id=149
+Dispath AsyncTask: id=150
+Dispath AsyncTask: id=150
+AsyncTask[132] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[132] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[133] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[132] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=150
+AsyncTask[133] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[133] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[134] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[133] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[134] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[134] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[135] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[134] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[135] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[135] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[136] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[135] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[136] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[136] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[137] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[136] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[137] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[137] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[138] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[138] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[137] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[138] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[139] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[139] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[139] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[140] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[141] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[138] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[139] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[140] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[140] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[140] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[141] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[142] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[143] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[142] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[143] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[144] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[145] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[146] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[141] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[141] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[142] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[144] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[145] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[147] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[148] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[149] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[150] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[142] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[143] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[146] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[147] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[148] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[149] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[150] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[143] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[144] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[144] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[145] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[146] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[147] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[148] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[149] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[145] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[146] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+AsyncTask[147] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[148] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[149] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+AsyncTask[150] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=150
+AsyncTask[150] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=151
+AsyncTask[151] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=151
+AsyncTask[151] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=151
+AsyncTask[151] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=151
+AsyncTask[151] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=152
+AsyncTask[152] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=152
+AsyncTask[152] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=152
+AsyncTask[152] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=152
+AsyncTask[152] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=153
+AsyncTask[153] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=153
+AsyncTask[153] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=153
+AsyncTask[153] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=153
+AsyncTask[153] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=154
+AsyncTask[154] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=154
+AsyncTask[154] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=154
+AsyncTask[154] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=154
+AsyncTask[154] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=155
+AsyncTask[155] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=155
+AsyncTask[155] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=155
+AsyncTask[155] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=155
+AsyncTask[155] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=lock -> OK
+
+Dispath AsyncTask: id=156
+AsyncTask[156] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=156
+AsyncTask[156] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=156
+AsyncTask[156] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=156
+AsyncTask[156] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=157
+AsyncTask[157] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=157
+AsyncTask[157] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+
+Dispath AsyncTask: id=157
+AsyncTask[157] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=157
+AsyncTask[157] Finish: http://192.168.1.130/swoole/testurl/url002.php -> OK
+
+Dispath AsyncTask: id=158
+AsyncTask[158] Finish: http://fenyong.lzz.work.newe.com/home/contab/task?type=cancle -> OK
+

@@ -15,9 +15,12 @@ function pf($data=null){
  */
 function query($sql,$action=null){
     $db=new mysqli(DBHOST,USERNAME,PASSWORD,DATABASE);
-    if(mysqli_connect_error()){
-        echo 'Could not connect to database.';
-        exit;
+    if(mysqli_connect_error()){ //断线重连接
+        $db=new mysqli(DBHOST,USERNAME,PASSWORD,DATABASE);
+        if(mysqli_connect_error()){
+            echo 'Could not connect to database.';
+            exit;
+        }
     }
     $res=$db->query($sql);
     if($action == "select"){

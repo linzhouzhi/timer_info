@@ -1,6 +1,7 @@
 <?php
 require_once("config.php");
 require_once("gloab.php");
+require_once("data_service.php");
 
 $serv = new swoole_server("127.0.0.1", 9501);
 
@@ -11,7 +12,8 @@ $serv->on('receive', function($serv, $fd, $from_id, $data) {
     //$serv->send($fd, "Server: ".$data);
     //投递异步任务
     $task_id = $serv->task($data);
-    echo "Dispath AsyncTask: id=$task_id\n";
+    $loginfo = "Dispath AsyncTask: id=$task_id";
+    file_put_contents(LOG_DIR."exeurl.log",$loginfo."\r\n",FILE_APPEND);
 });
 
 //处理异步任务
@@ -32,17 +34,19 @@ $serv->on('task', function ($serv, $task_id, $from_id, $data) {
         $time = time();
         if($output != '0'){
 		    //设置该url状态已经处理完成
-            $sql="update call_url set status=1,finish_time=$time where url='".$data."'";
-            query($sql);
+            $DService = new MySqlDB();
+            $DService->success_update_status($time,$data);
         	break;
         }
 
         $i++;
         if($i==5){
-            $sql="update call_url set status=-1,finish_time=$time where url='".$data."'";
-            query($sql);
+            $DService = new MySqlDB();
+            $DService->faile_update_status($time,$data);
         }
-        sleep(2);
+        
+	sleep(2);
+
     }while($i <= 5);
 
     //返回任务执行的结果
@@ -51,7 +55,8 @@ $serv->on('task', function ($serv, $task_id, $from_id, $data) {
 
 //处理异步任务的结果
 $serv->on('finish', function ($serv, $task_id, $data) {
-    echo "AsyncTask[$task_id] Finish: $data".PHP_EOL;
+    $loginfo = "AsyncTask[$task_id] Finish: $data".PHP_EOL;
+    file_put_contents(LOG_DIR."exeurl.log",$loginfo."\r\n",FILE_APPEND);
 });
 
 $serv->start();

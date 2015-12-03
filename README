@@ -3,6 +3,8 @@
         管理员权限启动 sudo  php server.php
     2 启动轮询程序
         php timer.php
+    3 定时任务（保证服务器down机可以自动重启）
+        */1 * * * * check_server.sh
 
 二 接口调用
     接口地址accept.php get 方式传递参数
@@ -10,14 +12,19 @@
     exe_time 这个是要执行的时间，也有可能是时间格式如10-31/2 * * * * 表示10到31分钟内每隔两分钟执行一次
     type 这是执行的类型0表示执行一次就不执行 1 表示类似crontab的执行方式
     调用方式: accept.php?url=respone.php&exe_time=111111&type=1
+    注意：如果传递参数是字符串型，比如 */3 * * * * 就要urlencode('*/3 * * * *')处理
 
 二 目录结构说明
-    testurl/ :这个是用于测试的url地址
-    accept.php  ：接口调用地址
-    client.php  ：客户端程序，由时间轮询函数调用
-    config.php  ：配置文件
-    crontab.php ：定时任务语法检测函数，用于判断是否可以执行
-    gloab.php   ：全局函数库
-    server.php  ：服务器程序可以启动多个线程，并行处理task
-    table.sql   ：项目需要的表
-    timer.php   ：时间轮询函数，可以设置轮询的时间
+    log/            ：日志地址
+        exeurl.log  ：执行过的url日志
+        restart.log ：服务器重启日志
+    testurl/        ：这个是用于测试的url地址
+    accept.php      ：接口调用地址
+    client.php      ：客户端程序，由时间轮询函数调用
+    config.php      ：配置文件
+    crontab.php     ：定时任务语法检测函数，用于判断是否可以执行
+    data_service.php：数据抽象接口，为了兼容不同的数据库操作
+    gloab.php       ：全局函数库
+    server.php      ：服务器程序可以启动多个线程，并行处理task
+    table.sql       ：项目需要的表
+    timer.php       ：时间轮询函数，可以设置轮询的时间

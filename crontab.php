@@ -23,7 +23,7 @@ function crontab_check($exe_time,$finish_time=0){
     $curr_arr = crontab_get_time_arr();
 
     $res = false;
-    for($i=0;$i<4;$i++){
+    for($i=0;$i<5;$i++){
         if($exe_arr[$i] != '*'){
             if($type === 1){  //如果是第一种类型，就是上面描述的那种
                 if( com_exe_curr_type1($exe_arr[$i],$curr_arr[$i]) ){
@@ -87,7 +87,7 @@ function check_finish_time($dist,$finish,$time_type){
     $exe_time = 0;
     switch($time_type){
         case 0:  //按分钟执行
-            $exe_time = $finish+$dist*60;
+            $exe_time = $finish+$dist*60;     		
             break;
         case 1:  //按小时执行
             $exe_time = $finish+$dist*60*60;
