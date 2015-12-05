@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+    <title>Editor example - Basic initialisation</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.1.0/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/select/1.1.0/css/select.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="css/editor.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/syntax/shCore.css">
+    <link rel="stylesheet" type="text/css" href="resources/demo.css">
+    <style type="text/css" class="init">
+
+    </style>
+    <script type="text/javascript" language="javascript" src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.11.3.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/select/1.1.0/js/dataTables.select.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="js/dataTables.editor.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="resources/syntax/shCore.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="resources/demo.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="resources/editor-demo.js">
+    </script>
+    <script type="text/javascript" language="javascript" class="init">
+
+
+
+        var editor; // use a global for the submit and return data rendering in the examples
+
+        $(document).ready(function() {
+            editor = new $.fn.dataTable.Editor( {
+                ajax: 'staff.php',
+                table: '#example',
+                idSrc: "id",
+                fields: [ {
+                    label: 'url:',
+                    name:  'url'
+                }, {
+                    label:     'exe_time:',
+                    name:      'exe_time',
+                    type:      'datetime',
+                    def:       function () { return new Date(); },
+                    format:    'YYYY-MM-DD HH:mm:ss',
+                    fieldInfo: 'US style m-d-y date input with 12 hour clock'
+                }, {
+                    label: 'type:',
+                    name:  'type'
+                }, {
+                    label: 'interval_tme:',
+                    name:  'interval_time'
+                }
+                ]
+            } );
+
+            $('#example').DataTable( {
+                dom: 'Bfrtip',
+                ajax: 'staff.php',
+
+                columns: [
+                    { data: 'id' },
+                    { data: 'url' },
+                    { data: 'exe_time' },
+                    { data: 'type' },
+                    { data: 'interval_time' },
+                    { data: 'retry' },
+                ],
+                select: true,
+                buttons: [
+                    { extend: 'create', editor: editor },
+                    { extend: 'edit',   editor: editor },
+                    { extend: 'remove', editor: editor }
+                ]
+            } );
+        } );
+
+
+
+    </script>
+</head>
+<body class="dt-example">
+<div class="container">
+    <table class="display" id="example" width="100%">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>url</th>
+            <th>exe_time</th>
+            <th>type</th>
+            <th>interval_time</th>
+            <th>retry</th>
+        </tr>
+        </thead>
+    </table>
+</body>
+</html>

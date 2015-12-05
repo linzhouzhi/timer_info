@@ -23,9 +23,17 @@ function query($sql,$action=null){
         }
     }
     $res=$db->query($sql);
+    if( empty($res) ){
+        return null;
+    }
+    $data = array();
     if($action == "select"){
-        $res=$res->fetch_all();
+        #关联数组方式获取结果集
+        while($row = $res->fetch_assoc())
+        {
+            $data[] = $row;
+        }
     }
     $db->close();
-    return $res;
+    return $data;
 }

@@ -7,8 +7,12 @@ define("DATABASE",'swoole');
 //轮询处理时间
 define("LOOP_TIME",5000);
 //时间检查的误差范围，用于将当前时间和要执行的url时间对比
-define("RANGE_TIME",30);
+define("RANGE_TIME",5);
 //服务器启动的线程数
-define("TASK_NUM",4);
+define("TASK_NUM",10);
 //日志地址
 define("LOG_DIR",'/phpstudy/www/swoole/log/');
+//失败重试次数
+define("RETRY_NUM",5);
+//重试等候时间(秒为单位)
+define("SLEEP_TIME",2);

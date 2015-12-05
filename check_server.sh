@@ -3,6 +3,7 @@
 PHP_DIR='/phpstudy/server/php/bin/'
 WORK_DIR='/phpstudy/www/swoole/'
 LOG_DIR='/phpstudy/www/swoole/log/'
+
 #计算server.php 和 timer.php 的进程数
 server_count=`ps -fe | grep "server.php" | grep -v "grep" | grep -v "master" | wc -l`
 timer_count=`ps -fe | grep "timer.php" | grep -v "grep" | grep -v "master" | wc -l`

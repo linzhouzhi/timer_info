@@ -18,36 +18,25 @@ $serv->on('receive', function($serv, $fd, $from_id, $data) {
 
 //处理异步任务
 $serv->on('task', function ($serv, $task_id, $from_id, $data) {
-    $i = 0;	
-    do{
-    	//初始化
-        $ch = curl_init();
-        //设置选项，包括URL
-        curl_setopt($ch, CURLOPT_URL,$data);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch ,CURLOPT_HEADER, 0);
-        //执行并获取HTML文档内容
-        $output = curl_exec($ch);
-        //释放curl句柄
-        curl_close($ch);
+    //初始化
+    $ch = curl_init();
+    //设置选项，包括URL
+    curl_setopt($ch, CURLOPT_URL,$data);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch ,CURLOPT_HEADER, 0);
+    //执行并获取HTML文档内容
+    $output = curl_exec($ch);
+    //释放curl句柄
+    curl_close($ch);
 
-        $time = time();
-        if($output != '0'){
-		    //设置该url状态已经处理完成
-            $DService = new MySqlDB();
-            $DService->success_update_status($time,$data);
-        	break;
-        }
-
-        $i++;
-        if($i==5){
-            $DService = new MySqlDB();
-            $DService->faile_update_status($time,$data);
-        }
-        
-	sleep(2);
-
-    }while($i <= 5);
+    $time = time();
+    $DService = new MySqlDB();
+    if($output != '0'){
+        //设置该url状态已经处理完成
+        $DService->success_update_status($time,$data);
+    }else{
+        $DService->faile_update_status($data);
+    }
 
     //返回任务执行的结果
     $serv->finish("$data -> OK");
