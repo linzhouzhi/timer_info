@@ -64,7 +64,7 @@ if ( window.$ ) {
 				server.find('p').eq(0).html( 'The following script is used by DataTables and Editor to process the data requests sent by the client on the server-side.' );
 
 				$.ajax( {
-					url: '../resources/examples.php',
+					url: '../web/resources/examples.php',
 					data: {
 						src: table.ajax.url() ||  '../php/staff-array.php'
 					},

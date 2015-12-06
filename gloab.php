@@ -23,16 +23,17 @@ function query($sql,$action=null){
         }
     }
     $res=$db->query($sql);
-    if( empty($res) ){
-        return null;
-    }
-    $data = array();
+
+    $data = null;
     if($action == "select"){
         #关联数组方式获取结果集
         while($row = $res->fetch_assoc())
         {
             $data[] = $row;
         }
+    }
+    if($action == "add"){
+        $data = $db->insert_id;
     }
     $db->close();
     return $data;
