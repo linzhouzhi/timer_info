@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
-    <title>Editor example - Basic initialisation</title>
+    <title>NEWE 定时任务处理中心</title>
     <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="css/select.dataTables.min.css">
@@ -29,7 +29,7 @@
         </tr>
         </thead>
     </table>
-</body>
+</div>
 
 <script type="text/javascript" language="javascript" src="js/moment.min.js">
 </script>
@@ -54,7 +54,7 @@
     var editor; // use a global for the submit and return data rendering in the examples
     $(document).ready(function() {
         editor = new $.fn.dataTable.Editor( {
-            ajax: 'staff.php',
+            ajax: 'data_process.php',
             table: '#example',
             idSrc: "id",
             fields: [ {
@@ -79,8 +79,7 @@
 
         $('#example').DataTable( {
             dom: 'Bfrtip',
-            ajax: 'staff.php',
-
+            ajax: 'data_process.php',
             columns: [
                 { data: 'id' },
                 { data: 'url' },
@@ -99,4 +98,5 @@
     } );
 
 </script>
+</body>
 </html>

@@ -17,9 +17,9 @@ interface DataService{
     //判断要执行的url存不存在
     function check_url( $url );
     //更新call_url中的字段信息
-    function update_pass_url( $exe_time,$type,$url );
+    function update_pass_url( $exe_time,$type,$interval_time,$url );
     //插入一条记录到call_url
-    function insert_respon_url( $exe_time,$type,$url );
+    function insert_respon_url( $exe_time,$type,$interval_time,$url );
     //获取执行列表详情
     function get_detail_list($domain);
 }
@@ -74,14 +74,14 @@ class MySqlDB implements DataService{
         return $check_url;
     }
     //更新call_url中的字段信息
-    function update_pass_url( $exe_time,$type,$url ){
-        $sql="update call_url set exe_time=$exe_time,status=$type where url=$url";
+    function update_pass_url( $exe_time,$type,$interval_time,$url ){
+        $sql="update call_url set exe_time=$exe_time,type=$type,interval_time=$interval_time,retry=0 where url=$url";
         $res = query($sql);
         pf($res);
     }
     //插入一条记录到call_url
-    function insert_respon_url( $exe_time,$type,$url ){
-        $sql="insert into call_url (url,exe_time,type) values ($url,$exe_time,$type)";
+    function insert_respon_url( $exe_time,$type,$interval_time,$url ){
+        $sql="insert into call_url (url,exe_time,type,interval_time) values ($url,$exe_time,$type,$interval_time)";
         $res = query($sql);
         pf($res);
     }
