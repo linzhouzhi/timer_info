@@ -15,12 +15,13 @@ tiny="/home/lzz/imgs_tiny/"
 COUNT=50
 
 #读取今日新添加的文件
-`find $dir -name '*.*g' -ctime -1 | awk -F $dir '{print $NF}' > cname.txt`
+`/usr/bin/find $dir -name '*.*g' -ctime -1 | /usr/bin/awk -F $dir '{print $NF}' > cname.txt`
 #`find $dir -name '*.*g' -ctime -1 -printf "%f\n" > cname.txt`
 #比较今日新添加的文件和昨天压缩的文件，获取没有压缩过的文件
-`diff -y --left-column cname.txt tmp.txt | grep  "<" | awk '{print $1}' | grep 'g$' > tmp.txt`
+`/usr/bin/diff -y --left-column cname.txt tmp.txt | /bin/grep  "<" | /usr/bin/awk '{print $1}' | /bin/grep 'g$' > t.txt`
+`/bin/cp t.txt tmp.txt`
 #读取需要压缩的文件
-list=`cat /home/lzz/tinyshell/tmp.txt`
+list=`/bin/cat /home/lzz/tinyshell/tmp.txt`
 
 #查询可以使用的app key
 sql="select app_key,times,month from tinypng"
