@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "hello" >> log.txt
+echo cdas "hello" >> log.txt;
+$a = "fdsa";
+echo $a;
+$a = "fdsa";
+

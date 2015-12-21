@@ -35,7 +35,7 @@ $serv->on('task', function ($serv, $task_id, $from_id, $data) {
         //设置该url状态已经处理完成
         $DService->success_update_status($time,$data);
     }else{
-        $DService->faile_update_status($data);
+        $DService->faile_update_status($time,$data);
     }
 
     //返回任务执行的结果

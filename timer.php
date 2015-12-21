@@ -33,7 +33,7 @@ function get_exe_url(){
         $i=0;
         foreach($url_list as $row){
             if( $row['retry'] < RETRY_NUM ){  //如果重试次数大于系统设置的次数就不符合条件
-                if( check_time($row['exe_time'],$row['interval_time'],$row['retry']) ){
+                if( check_time($row['exe_time'],$row['interval_time'],$row['retry'],$row['type']) ){
                     $arr[$i] = $row['url'];
                     $i++;
                 }
@@ -50,10 +50,16 @@ function get_exe_url(){
  * 检查url是否满足执行条件，执行时间exe_time加上间隔时间 interval_time要，小于等于当前时间表示要执行的
  * retry是重试的次数
  */
-function check_time($exe_time,$interval_time,$retry){
-    $sum_time = $exe_time+$interval_time+($retry*SLEEP_TIME);
+function check_time($exe_time,$interval_time,$retry,$type){
+
+    if( $type==0 && $retry!=0 ){  //如果是一次性执行的那么重试时间就是重试的次数*重试的时间间隔
+        $sum_time = $exe_time+($retry*SLEEP_TIME);
+    }else{
+        $sum_time = $exe_time+$interval_time;
+    }
+
     $time = time();
-    if( $time > $sum_time ){
+    if( $time >= $sum_time ){
         return true;
     }
     return false;

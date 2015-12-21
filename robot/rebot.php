@@ -7,30 +7,42 @@
  */
 
 for( $i=0;$i<10;$i++ ){
-    $user = new User();
-    $user->register();
-    $user->login();
+
 }
+$user = new User();
+//$user->register();
+$user->randStep(5);
+
 
 class User{
     private $urls = array(
+        0 => "url0",
         1 => "url1",
         2 => "url2",
-        3 => "url3"
+        3 => "url3",
+        4 => "url4",
+        5 => "url5",
+        6 => "url6"
     );
 
+    /**
+     * 注册步骤
+     */
     public function register(){
         $step = array(1,3,4,5);
         foreach( $step as $i ){
-            curl($this->urls[ $step[$i] ]);
+            echo $this->urls[$i]."\n\r";
         }
     }
 
+    /**
+     * 随即步骤
+     */
     public function randStep( $depth ){
         $size = count($this->urls);
         for($i=0;$i<$depth;$i++){
-            $d = rand(0,$size);
-            curl( $this->urls[$d] );
+            $d = rand(0,$size-1);
+            echo $this->urls[$d]."\n\r";
 
         }
     }

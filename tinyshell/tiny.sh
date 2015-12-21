@@ -19,7 +19,7 @@ base_dir="/phpstudy/www/swoole/tinyshell/"
 `/usr/bin/find $dir -name '*.*g' -ctime -1 | /usr/bin/awk -F $dir '{print $NF}' > $base_dir"cname.txt"`
 #`find $dir -name '*.*g' -ctime -1 -printf "%f\n" > cname.txt`
 #比较今日新添加的文件和昨天压缩的文件，获取没有压缩过的文件
-`/usr/bin/diff -y --left-column $base_dir"cname.txt" $base_dir"tmp.txt" | /bin/grep  "<" | /usr/bin/awk '{print $1}' | /bin/grep 'g$' > $base_dir"t.txt"`
+`/usr/bin/diff -y --left-column $base_dir"cname.txt" $base_dir"tmp.txt" | /bin/grep  "[<|]" | /usr/bin/awk '{print $1}' | /bin/grep 'g$' > $base_dir"t.txt"`
 `/bin/cp $base_dir"t.txt" $base_dir"tmp.txt"`
 #读取需要压缩的文件
 list=`/bin/cat $base_dir"tmp.txt"`

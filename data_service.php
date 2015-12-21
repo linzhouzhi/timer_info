@@ -11,7 +11,7 @@ interface DataService{
     //执行成功后更新状态
     function success_update_status($time,$data);
     //执行失败后更新状态
-    function faile_update_status($data);
+    function faile_update_status($time,$data);
     //判断是否是白名单中的ip
     function check_ip( $ip );
     //判断要执行的url存不存在
@@ -57,8 +57,8 @@ class MySqlDB implements DataService{
     /**
      * 执行失败后更新retry +1
      */
-    function faile_update_status($data){
-        $sql="update call_url set retry=retry+1 where url='".$data."'";
+    function faile_update_status($time,$data){
+        $sql="update call_url set exe_time=$time,retry=retry+1 where url='".$data."'";
         query($sql);
     }
     //判断是否是白名单中的ip

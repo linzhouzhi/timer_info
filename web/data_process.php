@@ -4,9 +4,30 @@ require_once("../gloab.php");
 require_once("../data_service.php");
 
 $domain = "fenyong.lzz.work.newe.com";
+
+
+/**
+ * 输出表格中的数据
+ */
+function table_datas(){
+    $DService = new MySqlDB();
+    $detail = $DService->get_detail_list();
+    for($i=0;$i<count($detail);$i++){
+        date_default_timezone_set('PRC');
+        $detail[$i]['exe_time'] = date('Y-m-d H:i:s',$detail[$i]['exe_time']);
+        if($detail[$i]['type'] === 0) {
+            $detail[$i]['type'] = "执行一次";
+        }else{
+            $detail[$i]['type'] = "长久执行";
+        }
+    }
+    return $detail;
+}
+
 /**
  * json方式输出数据
  */
+/*
 function echo_json_data(){
     $DService = new MySqlDB();
     $detail = $DService->get_detail_list();
@@ -52,6 +73,7 @@ if( !empty($_POST) ){
 }else{
     echo_json_data();
 }
+*/
 
 
 

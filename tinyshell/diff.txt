@@ -1,0 +1,28 @@
+989c989
+<   KEY `user_email` (`user_email`)
+---
+>   KEY `user_email` (`user_email`) USING BTREE
+1029a1030,1052
+> /*!40101 SET character_set_client = @saved_cs_client */;
+> 
+> --
+> -- Table structure for table `user_count`
+> --
+> 
+> DROP TABLE IF EXISTS `user_count`;
+> /*!40101 SET @saved_cs_client     = @@character_set_client */;
+> /*!40101 SET character_set_client = utf8 */;
+> CREATE TABLE `user_count` (
+>   `user_id` int(11) NOT NULL,
+>   `weibo_account` smallint(6) NOT NULL DEFAULT '0' COMMENT '微博帐号数',
+>   `qqweibo_account` smallint(6) NOT NULL DEFAULT '0' COMMENT '腾讯微博帐号数',
+>   `weixin_account` smallint(6) NOT NULL DEFAULT '0' COMMENT '微信朋友圈帐号数',
+>   `friends_account` smallint(6) NOT NULL DEFAULT '0' COMMENT 'QQ空间帐号数量',
+>   `accumulate_consume` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '累计消费数',
+>   `accumulate_recharge` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '累计充值数',
+>   `success_order` mediumint(9) NOT NULL DEFAULT '0' COMMENT '成功的订单数',
+>   `has_favorite` smallint(6) NOT NULL DEFAULT '0' COMMENT '收藏数量',
+>   `has_black` smallint(6) NOT NULL DEFAULT '0' COMMENT '黑名单数量',
+>   `has_appraise` smallint(6) NOT NULL DEFAULT '0' COMMENT '评价数',
+>   PRIMARY KEY (`user_id`)
+> ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户数据统计表';
