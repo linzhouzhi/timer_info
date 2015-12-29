@@ -1,0 +1,237 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广告主登录</title>
+<meta name="keywords" content="云媒体">
+<meta name="description" content="云媒体">
+<link rel="stylesheet" type="text/css" href="/page/css/20140915/base.css"/>
+<script type="text/javascript" src="/page/js/myunmei.js"></script>
+</head>
+<style>
+.login_2_cn {width:1030px; margin:0px auto;}
+.login_2_cn .logo_2{float:left; width:190px; height:123px; background:url(/page/images/20140915/logo_cn.gif) no-repeat 0px 58px; text-indent:-9999px; margin-right:20px;}
+</style>
+<body>
+<!--topNav-->
+<div class="top_login">
+<div class="login_2"><a href="/index.html"><span class="logo_2"></span></a><span class="snav"></span>
+	<a href="/page/indexmediaMasterJoin.jsp" style="color:#53BFF0;float: right;margin-top:100px;font-size: 14px">切换成<span style="color:red">媒介主</span>帐号登录&nbsp;&nbsp;>></a>
+</div>
+</div>
+<!--/header-->
+<!--主体-->
+<div class="focus clearfix">
+	<div class="picwrap" style="background:url(./images/20140915/1920x400/companyReg.jpg) center top no-repeat">
+    </div>
+	<div class="wrap">
+    	<div class="logBg"><div class="bgwhite1"></div><div class="bgwhite2"></div></div>
+        <div class="login">
+        	<ul class="loginTab">
+        		<li class="gglog" val="2">广告主登录</li>
+        	</ul>
+            <div class="con">
+            	<div class="gg logbody">
+            	
+                    
+
+<form id="loginForm" method="post">
+	<input id="userType" name="userType" type="hidden" value="2"/>
+    <div class="loginbox">
+    	<div class="iptArea mail">
+        	<input name="loginName" id="loginName" type="text"  value="" placeholder="邮箱/手机"/><i></i>
+        </div>
+        <div class="iptArea pwd">
+            <input name="password" id="password" type="password" value="" placeholder="密码"/><i></i> 
+        </div>
+        <div class="iptArea code">
+            <input name="validate" id="validate" type="text" value="" placeholder="验证码"/>
+            <img id="checkCode" width="70" height="24" src="/page/image.jsp">
+        	<span onclick="loadimage();" id="imageCreate"></span>
+     	</div>
+     	<div class="check">
+        	<label><input name="isRemember" id="isRemember" type="checkbox" value="0" />记住账号</label>
+     	</div>
+    	<a class="btnLogin" id="login" href="javascript:;" onclick="login();">登 录</a><a id="a_findPwd" href="/user/toPwdFind.html?userType=0" class="forget">忘记密码?</a>
+	</div>
+</form>
+<script>
+function loadimage(){
+	document.getElementById("checkCode").src = "/page/image.jsp?"+Math.random();
+}
+function login(){
+	//type
+	if($(".loginTab li").size()==2){
+		if($(".loginTab li").eq(1).hasClass("on")){
+			$("#userType").val(1);
+		}
+	}else{
+		$("#userType").val($(".loginTab li").eq(0).attr("val"));
+	}
+	
+	//isremember
+	if($("#isRemember").attr("checked") == true){
+		$("#isRemember").val(1);
+	}
+	var mobileReg=/^(13|15|18|14|17)[0-9]{9}$/;
+	var emailReg=/^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
+	var loginName = $("#loginName").val();
+	var loginType;
+	if(emailReg.test(loginName)){
+		loginType = "email";
+	}else if(mobileReg.test(loginName)){
+		loginType = "mobile";
+	}else{
+		alert("输入正确的邮箱或手机号");
+		return;
+	}
+	
+	var data = {loginName:loginName,
+				loginType:loginType,
+				userType:$("#userType").val(), 
+				password:$.md5($('#password').val()), 
+				validate:$("#validate").val(), 
+				isRemember:$("#isRemember").val()
+				}
+	$.ajax({
+	    url: "/userFront/login.json",
+	    type: 'POST',
+	    data: data,
+	    dataType: 'json',
+	    success: function(data){
+	    	if(data.success == "true"){
+	    		window.location.href = data.referer;
+	    	}else{
+	    		alert(data.msg);
+	    		if(data.error == 'unlogin'){
+	    			window.location.href = "/user/toPwdFind.html?userType="+data.userType;
+	    		}
+	    		loadimage();
+	    	}
+	    }
+	});
+	}
+	$("#loginName").keyup(function(event){
+				   if(event.keyCode ==13){
+					   if($(this).val()!=""){
+				     	$("#password").focus();
+					   }else
+					   {
+					   	alert("请输入邮箱或手机号");
+					      return
+					   }
+					
+				   }
+				});
+				$("#password").keyup(function(event){
+				   if(event.keyCode ==13){
+					   if($(this).val()!=""){
+						   $("#validate").focus();
+					   }
+					 	else{
+					   	alert("请输入密码");
+					      return
+					   }
+					}
+				});
+				$("#validate").keyup(function(event){
+				   if(event.keyCode ==13){
+					   if($(this).val()!=""){
+							$("#login").trigger("click");
+					   }
+					  else{
+					   	alert("请输入验证码");
+					    	return
+					   }
+				   }
+				 });
+
+</script><div class="reg">
+                        <a href="/user/toReg.html" style="width:256px">广告主注册</a>
+                    </div>
+                </div>
+                              
+            </div>
+        </div>
+    </div>
+</div>
+<!--search-->
+
+<div style="background:#333; clear:both; overflow:hidden;">
+	<div class="wrap zyfrom">
+	    找不到资源？
+	    <input  class="ipt" name="content" id="content" type="text" value="" placeholder="留下资源名称，8小时反馈" />
+	    <input name="contact" id="contact" class="ipt2" type="text" value="" placeholder="留下你的QQ号码/手机号码"/>
+	    <input type="button" class="btn" value="提交" onclick="sub();"/>
+	</div>
+</div>
+<script>
+function sub(){
+	if($("#content").val()=="" || $("#contact").val()==""){
+		return;
+	}
+	var data = {content:$("#content").val(), contact:$("#contact").val(), type:1}
+	$.ajax({
+	    url: "/feedback/add.json",
+	    type: 'POST',
+	    data: data,
+	    dataType: 'json',
+	    success: function(data){
+	    	if(data.success == "true"){
+	    		alert(data.msg);
+	    	}
+	    }
+	});
+}
+</script><!--/search-->
+
+<!--footer-->
+<div id="footer">
+	<div class="foot">
+		<a href="/page/other/contact.jsp">联系我们</a> | 
+		<a href="/page/other/join.jsp">加入我们</a> | 
+		<a href="/page/other/webmap.jsp">网站地图</a> | 
+		<a href="##">隐私声明</a> | 
+		<a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备13076897号</a> 
+		<div class="tip">
+					
+					©2015&nbsp;&nbsp;广州云自媒信息科技有限公司
+					&nbsp;&nbsp;&nbsp;&nbsp;www.myunmei.com 版权所有
+</div>
+			<div class="tips"></div>
+	</div>
+</div>
+
+
+
+
+	<script type="text/javascript">
+	//百度咨询统计
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?750e5414bb48eceb1ad1e1b272cc7e66";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	<!-- 站长 -->
+	
+	<!-- QQ交谈 -->
+	<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODAzNjU4N18xNTgzNDhfNDAwODE2MDU2MF8"></script>
+
+
+
+
+
+<!--/footer-->
+</body>
+</html>
