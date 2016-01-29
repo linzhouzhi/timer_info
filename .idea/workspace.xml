@@ -6,42 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff7386e-f350-4792-8bf1-517e4eff0a53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/center.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/sort_asc.png" afterPath="$PROJECT_DIR$/web/images/sort_asc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/web/images/sort_asc_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/sort_both.png" afterPath="$PROJECT_DIR$/web/images/sort_both.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/sort_desc.png" afterPath="$PROJECT_DIR$/web/images/sort_desc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/web/images/sort_desc_disabled.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/.name" afterPath="$PROJECT_DIR$/robot/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/CurlAsync.php" afterPath="$PROJECT_DIR$/robot/CurlAsync.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/buttons.dataTables.min.css" afterPath="$PROJECT_DIR$/web/css/buttons.dataTables.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyshell/cname.txt" afterPath="$PROJECT_DIR$/tinyshell/cname.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/dataTables.buttons.min.js" afterPath="$PROJECT_DIR$/web/js/dataTables.buttons.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/dataTables.select.min.js" afterPath="$PROJECT_DIR$/web/js/dataTables.select.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/data_process.php" afterPath="$PROJECT_DIR$/web/data_process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_service.php" afterPath="$PROJECT_DIR$/data_service.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/encodings.xml" afterPath="$PROJECT_DIR$/robot/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/jquery.dataTables.min.css" afterPath="$PROJECT_DIR$/web/css/jquery.dataTables.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyshell/log.txt" afterPath="$PROJECT_DIR$/tinyshell/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/misc.xml" afterPath="$PROJECT_DIR$/robot/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/modules.xml" afterPath="$PROJECT_DIR$/robot/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/rebot.php" afterPath="$PROJECT_DIR$/robot/rebot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/robot.iml" afterPath="$PROJECT_DIR$/robot/.idea/robot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/robot/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/select.dataTables.min.css" afterPath="$PROJECT_DIR$/web/css/select.dataTables.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyshell/t.sh" afterPath="$PROJECT_DIR$/tinyshell/t.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dir1/t.txt" afterPath="$PROJECT_DIR$/dir1/t.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyshell/t.txt" afterPath="$PROJECT_DIR$/tinyshell/t.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dir1/test.txt" afterPath="$PROJECT_DIR$/dir1/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dir1/test1.txt" afterPath="$PROJECT_DIR$/dir1/test1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timer.php" afterPath="$PROJECT_DIR$/timer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyshell/tiny.sh" afterPath="$PROJECT_DIR$/tinyshell/tiny.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tinyshell/tmp.txt" afterPath="$PROJECT_DIR$/tinyshell/tmp.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/vcs.xml" afterPath="$PROJECT_DIR$/robot/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robot/.idea/workspace.xml" afterPath="$PROJECT_DIR$/robot/.idea/workspace.xml" />
     </list>
     <ignored path="swoole.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/web/center.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6143984" vertical-offset="21" max-vertical-offset="1495">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -141,9 +106,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1204" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,7 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,11 +167,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api_docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../robot" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -264,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -633,13 +598,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/syntax/Syntax Highlighter license">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1014">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/dataTables.editor.min.js">
@@ -682,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/web/center.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6143984" vertical-offset="21" max-vertical-offset="1495">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding />
         </state>
       </provider>
